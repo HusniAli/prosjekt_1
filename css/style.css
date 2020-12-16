@@ -1,0 +1,239 @@
+/********
+Global
+************/
+
+
+body {
+
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+.clear {
+    clear: both;
+
+}
+
+/********
+
+Text
+************/
+header{
+
+    background-color: #336699;
+    color: white;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+.logo {
+
+    float: left;
+
+}
+
+.logo a {
+ color: #ffffff;
+ text-decoration: none;    
+}
+
+nav {
+
+color: #ffffff;
+padding: 10px 0px 10px 0px;
+float: right;
+margin-top: 5px;
+}
+
+nav ul {
+
+    list-style: none;
+}
+
+nav li {
+
+    float: left;
+}
+
+nav a {
+
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav .selected {
+
+    text-decoration: underline;
+}
+
+/********
+Layout: content 
+************/
+main{
+    float: left;
+}
+
+aside {
+    float: right;  
+}
+
+.content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/********
+Text
+************/
+
+h1,h2,h3,h4,h5 {
+
+    color: #336699;
+}
+
+
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 26px;
+}
+h3 {
+    font-size: 22px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 14px;
+}
+
+p {
+
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/********
+Layout: footer
+************/
+footer {
+
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #cccccc;    
+}
+
+.copyright {
+float: left;
+
+}
+
+.social {
+    float: right;
+    margin-top: 15px;
+}
+.social a {
+    margin-left: 5px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.social a:hover {
+    margin-left: 5px;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+/********
+Sider: Arbeider
+************/
+
+.gallery ul{
+     padding-left: 0px;
+
+}
+
+.gallery li{
+
+    float: left;
+    margin: 5px;
+    background-color: #295A8b;
+    list-style: none;
+}
+
+.gallery li:hover {
+    background-color: #336699;
+    
+}
+
+.gallery p {
+
+    padding-left: 15px;
+    color: #ffffff;
+}
+
+.gallery a {
+
+    text-decoration: none;
+}
+
+/********
+Sider: om meg
+************/
+.img-left {
+    margin: 0px 30px 30px 0px;
+    max-width: 100%;
+}
+.img-right {
+    margin: 0px 0px 30px 30px;
+    max-width: 300px;
+}
+
+
+/********
+Responsive
+************/
+@media screen and (min-width: 0px) and (max-width:550px) {
+    .logo {
+        float: none;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+nav,
+nav a {
+    float: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    }
+
+nav li {
+    float: none;
+    line-height: 30px;
+    
+ }
+
+ .copyright{
+
+    float: none;
+    text-align: center;
+ }
+ .social{
+     float: none;
+     margin-top: 0px;
+     text-align: center;
+ }
+
+}
